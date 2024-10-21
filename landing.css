@@ -72,3 +72,115 @@ nav ul a{
     max-width: 100%;
     height: auto;
 }
+
+.div-contenedor {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    background-color: bisque;
+    border-radius: 15px;
+    flex-direction: column;
+    height: 300px;
+}
+
+.div-contenedor h1 {
+    margin: 15px;
+}
+
+
+.div-features {
+    display: flex;
+    height: calc(100% - 30px);
+    justify-content: space-between;
+    margin: 15px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.div-features div {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(182, 30, 30);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div-pricing {
+    display: flex;
+    height: calc(100% - 30px);
+    justify-content: space-between;
+    margin: 15px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.plan {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(182, 30, 30);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricing-button {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.demo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-contenedor-demo {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    background-color: bisque;
+    border-radius: 15px;
+    flex-direction: column;
+    height: 150px;
+}
+
+.div-contenedor-demo button {
+    margin-top: auto;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.div-contenedor2 {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    background-color: bisque;
+    border-radius: 15px;
+    flex-direction: column;
+    height: 200px;
+}
+
+.div-contenedor2 h1, p {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    background: darkseagreen;
+    color: black;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
