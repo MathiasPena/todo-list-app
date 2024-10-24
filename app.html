@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ToDo List App</div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="todo-section">
+            <div class="todo-container">
+                <h2>Organiza tus tareas</h2>
+                
+                <!-- Formulario para agregar tareas -->
+                <form id="todo-form">
+                    <input type="text" id="todo-input" placeholder="Ingresa una nueva tarea" required/>
+                    
+                    <!-- Select para las categorías -->
+                    <select id="category-select" required>
+                        <option value="" disabled selected>Selecciona una categoria</option>
+                        <option value="Work">Trabajo</option>
+                        <option value="Personal">Personal</option>
+                        <option value="Shopping">Shopping</option>
+                    </select>
+
+                    <button type="submit">Agregar Tarea</button>
+                    <button id="clear-list-btn">Limpiar Lista</button>
+                </form>
+
+                <!-- Lista de tareas por categoría -->
+                <div id="categories">
+                    <h3>Categorias</h3>
+                    <div id="category-lists"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ToDo List App. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
