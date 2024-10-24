@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo List App</title>
-    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
@@ -15,32 +15,25 @@
             <div class="logo">ToDo List</div>
             <div class="nav-center">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="nav-right">
-                <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li><a href="#hero">Demo</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#footer">Contacto</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="hero">
+        <div class="hero" id="hero">
             <div class="hero-left-section">
                 <div class="hero-title">
                     <h1>To Do List App</h1>
                 </div>
                 <div class="hero-desc">
-                    <p>Manage your tasks efficiently with our ToDo List App</p>
+                    <p>Organiza tus tareas y mejora tu productividad con nuestra aplicación intuitiva.</p>
                 </div>
                 <div class="hero-demo">
-                    <p>Obtener Demo: </p>
-                    <button>Demo</button>
+                    <button>Probar Demo</button>
                 </div>
             </div>
             <div class="hero-right-section">
@@ -49,56 +42,61 @@
                 </div>
             </div>
         </div>
-        <div class="div-contenedor">
-            <h1>Features</h1>
+
+        <div class="div-contenedor"  id="features">
+            <h1>Características</h1>
             <div class="div-features">
-                <div class="feature1">
-                    <h2>Feature 1</h2>
-                    <p>Feature 1 Description</p>
+                <div class="feature">
+                    <h2>Categorías Personalizadas</h2>
+                    <p>Agrupa tus tareas en diferentes categorías para una mejor organización.</p>
                 </div>
-                <div class="feature2">
-                    <h2>Feature 2</h2>
-                    <p>Feature 2 Description</p>
+                <div class="feature">
+                    <h2>Guardado Local</h2>
+                    <p>Tus tareas se guardan directamente en tu navegador, no necesitas conexión a internet.</p>
                 </div>
-                <div class="feature3">
-                    <h2>Feature 3</h2>
-                    <p>Feature 3 Description</p>
+                <div class="feature">
+                    <h2>Interfaz Intuitiva</h2>
+                    <p>Un diseño claro y fácil de usar, que te permite gestionar tus tareas sin complicaciones.</p>
                 </div>
             </div>
         </div>
+
         <div class="div-contenedor">
-            <h1>Pricing</h1>
+            <h1>Precios</h1>
             <div class="div-pricing">
                 <div class="plan">
-                    <h2>Pricing 1</h2>
-                    <p>Pricing 1 Description</p>
+                    <h2>Plan Gratuito</h2>
+                    <p>Acceso completo a todas las funciones básicas del gestor de tareas.</p>
                     <div class="pricing-button">
-                        <button>Pricing 1</button>
+                        <button>Elegir</button>
                     </div>
                 </div>
                 <div class="plan">
-                    <h2>Pricing 2</h2>
-                    <p>Pricing 2 Description</p>
+                    <h2>Plan Pro</h2>
+                    <p>Funciones avanzadas y soporte prioritario por solo $4.99 al mes.</p>
                     <div class="pricing-button">
-                        <button>Pricing 2</button>
+                        <button>Elegir</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="div-contenedor2">
-            <h1>Try it for free! - Demo</h1>
-            <p>Get started today!</p>
-            <div class="pricing-button">
-                <button>Demo </button>
+
+        <div class="div-contenedor">
+            <h1>¡Pruébalo gratis! - Demo</h1>
+            <p>Comienza a organizar tus tareas de inmediato, sin registrarte.</p>
+            <div class="demo-button">
+                <button>Probar Demo</button>
             </div>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+
+    <footer id="footer">
+        <p>&copy; 2024 ToDo List App. Todos los derechos reservados.</p>
         <address>
-            <p>Contacto: <a href="mailto:info@miweb.com">info@miweb.com</a></p>
+            <p>Contacto: <a href="mailto:info@todolist.com">info@todolist.com</a></p>
         </address>
     </footer>
 </body>
 
+<script src="assets/js/landing.js"></script>
 </html>
