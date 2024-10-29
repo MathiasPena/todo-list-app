@@ -6,6 +6,7 @@
 }
 
 body {
+    min-width: 700px;
     background-color: #f7f9fc;
     color: #333;
 }
@@ -192,4 +193,18 @@ footer address a {
 
 footer address a:hover {
     color: #2980b9;
+}
+
+.demo-desc {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+    width: 50px; 
+    height: auto; 
+    margin-right: 15px;
 }

@@ -3,7 +3,6 @@ const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const categorySelect = document.getElementById('category-select');
 const categoryLists = document.getElementById('category-lists');
-// Referencia al botón de limpiar lista
 const clearListBtn = document.getElementById('clear-list-btn');
 
 // Cargar tareas del LocalStorage o inicializar si no hay
