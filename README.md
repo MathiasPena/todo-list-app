@@ -1,6 +1,6 @@
 # Todo List App
 
-Una aplicación simple para gestionar tareas pendientes, diseñada para ayudar a los usuarios a organizar y priorizar sus actividades diarias.
+Una aplicación de prueba simple para gestionar tareas pendientes, diseñada para ayudar a los usuarios a organizar y priorizar sus actividades diarias.
 
 ## Características
 
